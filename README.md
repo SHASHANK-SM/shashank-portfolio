@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Portfolio
 
-This contains everything you need to run your app locally.
+Welcome to my portfolio website. This project showcases my web development skills and professional projects.
 
-View your app in AI Studio: https://ai.studio/apps/drive/11p_cmSbDRsrkgU_GGVd5DZJ_DukTt5s7
+## About
 
-## Run Locally
+I am a web developer with expertise in modern web technologies and full-stack development. This portfolio demonstrates my ability to design, build, and deploy responsive web applications.
 
-**Prerequisites:**  Node.js
+## Projects
 
+- **Project 1**: [Brief description] - [Technologies used]
+- **Project 2**: [Brief description] - [Technologies used]
+- **Project 3**: [Brief description] - [Technologies used]
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Skills
+
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Node.js, Express
+- Databases: MongoDB, PostgreSQL
+- Tools: Git, GitHub, VS Code
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+```bash
+git clone <repository-url>
+cd shashank-portfolio
+npm install
+npm start
+```
+
+## Contact
+
+Feel free to reach out:
+- Email: [shashanksm532@gmail.com]
+
+## License
+
+This project is licensed under the MIT License.
