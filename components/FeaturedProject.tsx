@@ -23,7 +23,7 @@ const FeaturedProject: React.FC = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <img 
-            src="https://picsum.photos/1200/900?nature=1" 
+            src=".\Wildlife_photo.jpg" 
             alt={featured.title} 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90"
           />

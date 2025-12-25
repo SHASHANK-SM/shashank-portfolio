@@ -6,7 +6,7 @@ export const PROFILE = {
   email: "shashanksm532@gmail.com",
   phone: "+91 9353044342",
   linkedin: "https://linkedin.com/in/shashank-s-m",
-  github: "https://github.com/Shashank_SM",
+  github: "https://github.com/SHASHANK-SM",
   resumeUrl: "#", // User: replace with your actual resume PDF link
   summary: "Enthusiastic AI/ML and Software Development student with practical experience in training CNN, RNN, and LSTM models and deploying full-stack applications using Python, Django, and modern tools. Skilled in solving technical challenges with clean and scalable solutions."
 };
@@ -54,7 +54,7 @@ export const PROJECTS = [
     approach: "Utilized PyTorch and Torchvision to train a CNN on high-variance biological datasets. Implemented custom preprocessing pipelines for noise reduction.",
     outcome: "Achieved 87% test accuracy on multi-class identification, reducing classification lag significantly.",
     learnings: "Mastered data augmentation strategies for low-resource biological classes and fine-tuning deep architectures.",
-    github: "https://github.com/Shashank_SM"
+    github: "https://github.com/SHASHANK-SM/Wildlife_Species_Identification"
   },
   {
     id: "story-gen",
@@ -80,7 +80,7 @@ export const PROJECTS = [
     approach: "Trained LSTMs on the Meme900k dataset to align visual context with linguistic output.",
     outcome: "Successful caption generation with 82% contextual relevance score.",
     learnings: "Explored latent space representations of visual-textual humor.",
-    github: "https://github.com/Shashank_SM"
+    github: "https://github.com/SHASHANK-SM/AI-Powered-Meme-Generation"
   }
 ];
 

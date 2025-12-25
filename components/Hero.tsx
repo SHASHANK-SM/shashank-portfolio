@@ -6,16 +6,15 @@ const Hero: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
-      {/* Subtle Easter Egg Backdrop Element */}
+        <section className="relative h-screen max-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
       <motion.div
         className="absolute top-1/4 left-1/4 w-96 h-96 bg-neutral-50 rounded-full mix-blend-multiply filter blur-3xl opacity-50 -z-10"
         animate={{
           scale: [1, 1.2, 1],
-          x: [0, 30, 0],
-          y: [0, -30, 0],
+           x: [-20, 20, -20],
+          y: [-20, 20, -20],
         }}
-        transition={{ duration: 10, repeat: Infinity }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
       />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">

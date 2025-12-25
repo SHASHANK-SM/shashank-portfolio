@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { PROFILE } from '../data/constants';
+import { Github, Linkedin, Mail,Globe ,MapPin } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -11,16 +12,53 @@ const Footer: React.FC = () => {
            <p className="text-sm text-neutral-400">© {new Date().getFullYear()} Shashank S M. All rights reserved.</p>
         </div>
 
-        <div className="flex gap-8">
-          <a href={PROFILE.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-neutral-900 transition-colors">LinkedIn</a>
-          <a href={PROFILE.github} target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-neutral-900 transition-colors">GitHub</a>
-          <a href={`mailto:${PROFILE.email}`} className="text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-neutral-900 transition-colors">Email</a>
-        </div>
+        <div className="flex gap-6 sm:gap-8 md:gap-10 items-center justify-center">
+        <a
+          href={PROFILE.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center text-neutral-600 hover:text-neutral-900 transition-transform duration-300 hover:scale-110"
+          aria-label="LinkedIn"
+        >
+          <Linkedin size={28} strokeWidth={1.5} />
+          <p className="text-sm mt-2 text-center">LinkedIn</p>
+        </a>
 
-        <div className="text-right">
-           <p className="text-sm font-bold text-neutral-900">Bengaluru, India</p>
-           <p className="text-xs text-neutral-400">Open to Relocate</p>
-        </div>
+        <a
+          href={PROFILE.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center text-neutral-600 hover:text-neutral-900 transition-transform duration-300 hover:scale-110"
+          aria-label="GitHub"
+        >
+          <Github size={28} strokeWidth={1.5} />
+          <p className="text-sm mt-2 text-center">GitHub</p>
+        </a>
+
+        <a
+          href={`mailto:${PROFILE.email}`}
+          className="flex flex-col items-center text-neutral-600 hover:text-neutral-900 transition-transform duration-300 hover:scale-110"
+          aria-label="Email"
+        >
+          <Mail size={28} strokeWidth={1.5} />
+          <p className="text-sm mt-2 text-center">Email Me</p>
+        </a>
+      </div>
+
+              <div className="flex items-start gap-2 text-right">
+              <MapPin size={14} className="mt-[3px] text-neutral-600" />
+
+              <div className="flex flex-col leading-tight">
+                <p className="text-sm font-bold text-neutral-900">
+                  Bengaluru, India
+                </p>
+
+                <div className="flex items-center gap-1 text-xs text-neutral-500">
+                  <Globe size={11} className="mt-[1px]" />
+                  <span>Open to Relocate</span>
+                </div>
+              </div>
+            </div>
       </div>
     </footer>
   );
