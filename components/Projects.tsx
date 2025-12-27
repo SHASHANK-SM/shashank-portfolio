@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: idx * 0.1 }}
-            className="group p-8 bg-white border border-neutral-100 rounded-3xl hover:shadow-xl hover:border-neutral-200 transition-all duration-300 flex flex-col h-full"
+            className="group p-8 bg-white border border-neutral-100 rounded-3xl  hover:border-neutral-200 transition-all duration-300 flex flex-col h-full"
           >
             <div className="flex flex-wrap gap-2 mb-6">
               {project.tags.map(tag => (

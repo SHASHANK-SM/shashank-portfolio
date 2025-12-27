@@ -18,30 +18,35 @@ const Hero: React.FC = () => {
       />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-sm md:text-base font-light text-neutral-500 mb-6 tracking-wide"
-        >
-          Shashank S M
-        </motion.div>
+       <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-2xl md:text-3xl font-semibold font-signature text-neutral-900 mb-6 tracking-wide"
+      >
+        Shashank S M
+      </motion.div>
+
 
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 text-[10px] font-bold tracking-[0.2em] uppercase text-neutral-400 bg-white border border-neutral-100 rounded-full shadow-sm"
+          className="inline-flex items-center gap-1 px-4 py-1.5 mb-8 text-[10px] font-bold tracking-[0.3em] uppercase 
+          text-neutral-900 bg-neutral-100 border border-neutral-400 rounded-full shadow-sm"
+
+
+
         >
-          <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
-          Available — Bengaluru, India — Open to Relocation
+          <span className="w-1.5 h-1.5 bg-green-800 rounded-full animate-pulse"></span>
+          Available — Bengaluru, India — Open to Relocate
         </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-8xl font-bold text-neutral-900 mb-10 tracking-tighter leading-[0.9]"
+          className="text-3xl md:text-6xl font-bold text-neutral-900 mb-10 tracking-tighter leading-[0.95]"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

@@ -54,9 +54,12 @@ const FeaturedProject: React.FC = () => {
           </div>
 
           <button 
-            onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center gap-3 text-neutral-900 font-bold hover:gap-5 transition-all group"
-          >
+          onClick={() => setIsOpen(!isOpen)}
+          className="inline-flex items-center gap-3 px-6 py-3 
+          bg-neutral-800 text-neutral-100 
+          rounded-full text-sm font-semibold 
+          hover:bg-neutral-900 transition-all group shadow-sm"
+        >
             {isOpen ? 'Close Case Study' : 'Explore The Process'}
             <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

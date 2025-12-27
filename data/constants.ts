@@ -67,7 +67,7 @@ export const PROJECTS = [
     approach: "Developed an RNN-based sequence model focusing on character-level and word-level tokenization for better semantic flow.",
     outcome: "Created a web-based playground for real-time storytelling with high thematic coherence.",
     learnings: "Deep dive into backpropagation through time (BPTT) and gradient clipping for stable training.",
-    github: "https://github.com/Shashank_SM"
+    github: "https://github.com/SHASHANK-SM/Story_Generation/tree/main"
   },
   {
     id: "meme-gen",

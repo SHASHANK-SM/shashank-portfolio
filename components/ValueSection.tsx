@@ -26,7 +26,8 @@ const ValueSection: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: idx * 0.15 }}
-            className="group p-10 bg-white border border-neutral-100 rounded-3xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full"
+            className="group p-10 bg-white border border-neutral-100 rounded-3xl  transition-shadow duration-300 flex flex-col justify-between h-full cursor-default select-text"
+
           >
             <div>
               <div className="w-12 h-12 bg-neutral-50 rounded-2xl flex items-center justify-center mb-8 text-neutral-300 group-hover:text-neutral-900 transition-colors">
@@ -43,7 +44,7 @@ const ValueSection: React.FC = () => {
             </div>
             
             <div className="pt-6 border-t border-neutral-50">
-               <span className="text-[10px] font-bold uppercase tracking-widest text-neutral-300 mb-2 block">Next Up</span>
+               <span className="text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2 block">Next Up</span>
                <div className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-900 text-white rounded-full text-[10px] font-medium">
                   <div className="w-1 h-1 bg-green-400 rounded-full animate-pulse"></div>
                   {item.learning}

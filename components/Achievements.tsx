@@ -29,7 +29,7 @@ const Achievements: React.FC = () => {
                       <path d="M12 15l-2 5l9-9l-15-4l3 10l5 2l4-7l-1-1l-3 2l-2-2l1-1l2 2l1-1l-2-2"></path>
                     </svg>
                   </div>
-                  <span className="text-[10px] font-bold text-neutral-300 uppercase tracking-widest">
+                  <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">
                     #{idx + 1}
                   </span>
                 </div>
