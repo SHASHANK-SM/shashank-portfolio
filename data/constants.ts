@@ -54,7 +54,7 @@ export const PROJECTS = [
     approach: "Utilized PyTorch and Torchvision to train a CNN on high-variance biological datasets. Implemented custom preprocessing pipelines for noise reduction.",
     outcome: "Achieved 87% test accuracy on multi-class identification, reducing classification lag significantly.",
     learnings: "Mastered data augmentation strategies for low-resource biological classes and fine-tuning deep architectures.",
-    github: "https://github.com/SHASHANK-SM/Wildlife_Species_Identification"
+    github: "https://github.com/SHASHANK-SM/SHASHANK-SM-Wildlife_Species_Identification-using-CNN"
   },
   {
     id: "story-gen",
