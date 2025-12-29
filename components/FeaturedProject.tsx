@@ -28,14 +28,14 @@ const FeaturedProject: React.FC = () => {
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-          <div className="absolute bottom-8 left-8 text-white">
-             <div className="flex gap-2 mb-3">
-                {featured.tags.map(tag => (
-                  <span key={tag} className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-medium">{tag}</span>
-                ))}
+           <div className="absolute bottom-8 left-8 text-white max-w-[85%] sm:max-w-none">
+             <div className="flex flex-wrap gap-2 mb-3">
+               {featured.tags.map(tag => (
+                <span key={tag} className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-medium">{tag}</span>
+               ))}
              </div>
-             <h3 className="text-3xl font-bold tracking-tight">{featured.title}</h3>
-          </div>
+             <h3 className="text-2xl sm:text-3xl font-bold tracking-tight break-words">{featured.title}</h3>
+           </div>
         </motion.div>
 
         <div className="lg:col-span-5">
