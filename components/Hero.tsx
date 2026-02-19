@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="text-2xl md:text-3xl font-semibold font-signature text-neutral-900 mb-6 tracking-wide"
       >
-        Shashank S M
+        Shashank S Madabal
       </motion.div>
 
 
