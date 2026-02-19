@@ -1,7 +1,7 @@
 
 export const PROFILE = {
-  name: "Shashank S M",
-  role: "AI / ML Engineer",
+  name: "Shashank S Madabal",
+  role: "AI / ML Engineer Aspirant | Intelligent Systems Architect",
   location: "Bengaluru, India",
   email: "shashanksm532@gmail.com",
   phone: "+91 9353044342",
@@ -12,11 +12,11 @@ export const PROFILE = {
 };
 
 export const SIGNAL_PILLS = [
-  "CNN / RNN / LSTM Specialist",
-  "GenAI Architect",
-  "Computer Vision & NLP",
-  "Applied Research Focus",
-  "Full-Stack AI Integration"
+  "Deep Learning Systems (CNN, RNN, LSTM)",
+  "Generative AI & Applied ML",
+  "Computer Vision & NLP Engineering",
+  "Data Structures & Algorithmic Thinking",
+  "Production-Ready AI Deployment"
 ];
 
 export const SKILLS = [
@@ -26,7 +26,7 @@ export const SKILLS = [
   },
   {
     category: "Frameworks & Libraries",
-    items: ["TensorFlow", "Keras", "PyTorch", "Scikit-Learn", "NumPy", "Pandas", "HuggingFace"]
+    items: ["TensorFlow", "Keras", "PyTorch", "Scikit-Learn", "Torchvision", "Neural-Networks","Kaggle", "HuggingFace"]
   },
   {
     category: "Programming",
@@ -34,11 +34,11 @@ export const SKILLS = [
   },
   {
     category: "Production & Tools",
-    items: ["Streamlit", "Flask", "Django", "Git", "GitHub", "Docker", "Jupyter"]
+    items: ["Streamlit", "Flask", "Django", "Git", "GitHub", "Docker", "Jupyter/Google Colab","RESTful APIs","FastAPI"]
   },
   {
     category: "Databases",
-    items: ["MySQL", "MongoDB", "PostgreSQL"]
+    items: ["MySQL", "MongoDB"]
   }
 ];
 
