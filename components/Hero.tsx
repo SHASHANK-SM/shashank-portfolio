@@ -48,8 +48,9 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-3xl md:text-5xl lg:text-6xl font-semibold text-neutral-900 
-                     mb-8 tracking-tight leading-[1.08] max-w-3xl mx-auto"
+          className="text-2xl md:text-4xl lg:text-5xl font-semibold 
+           text-neutral-900 mb-8 tracking-tight leading-[1.1] 
+           max-w-3xl mx-auto"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
