@@ -71,10 +71,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg md:text-xl text-neutral-500 mb-12 leading-relaxed max-w-2xl mx-auto font-medium"
         >
-          Building reliable machine-learning systems with deep learning, NLP,
-          and production-ready experimentation —{" "}
+          Designing and deploying end-to-end machine learning systems powered by deep learning and scalable backend architectures. —{" "}
           <span className="text-neutral-900">
-            focused on real-world impact, not demos.
+            Committed to engineering reliable, high-performance AI solutions for real-world applications.
           </span>
         </motion.p>
 
