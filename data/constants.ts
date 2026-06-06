@@ -5,7 +5,7 @@ export const PROFILE = {
   location: "Bengaluru, India",
   email: "shashanksm532@gmail.com",
   phone: "+91 9353044342",
-  linkedin: "https://linkedin.com/in/shashank-s-m",
+  linkedin: "https://www.linkedin.com/in/shashank-s-madabal-883404298/",
   github: "https://github.com/SHASHANK-SM",
   resumeUrl: "#", // User: replace with your actual resume PDF link
   summary: "Enthusiastic AI/ML and Software Development student with practical experience in training CNN, RNN, and LSTM models and deploying full-stack applications using Python, Django, and modern tools. Skilled in solving technical challenges with clean and scalable solutions."
@@ -26,7 +26,7 @@ export const SKILLS = [
   },
   {
     category: "Frameworks & Libraries",
-    items: ["TensorFlow", "Keras", "PyTorch", "Scikit-Learn", "Torchvision", "Neural-Networks","Kaggle", "HuggingFace"]
+    items: ["TensorFlow", "Keras", "PyTorch", "Scikit-Learn", "Torchvision", "Neural-Networks", "Kaggle", "HuggingFace"]
   },
   {
     category: "Programming",
@@ -34,7 +34,7 @@ export const SKILLS = [
   },
   {
     category: "Production & Tools",
-    items: ["Streamlit", "Flask", "Django", "Git", "GitHub", "Docker", "Jupyter/Google Colab","RESTful APIs","FastAPI"]
+    items: ["Streamlit", "Flask", "Django", "Git", "GitHub", "Docker", "Jupyter/Google Colab", "RESTful APIs", "FastAPI"]
   },
   {
     category: "Databases",
